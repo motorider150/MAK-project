@@ -9,7 +9,11 @@
     <title>Man Stockholm Barbershop - Traditionell rakning, trimning av skägg och klippning</title>
     
 <style>
-
+#cookie-law-info-bar 
+{
+  font-size: 15px;
+  text-align: center;
+}
 #myDIV {
     width: 1500;
     height: 900px;
@@ -25,7 +29,7 @@ img {
     top: 30%;
 }
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes move {
+@-webkit-keyframes mymove {
     60% {background-size: 2100px 1400px;}
 }
 
@@ -46,7 +50,7 @@ img {
   color: rgb(247, 207, 158);
   text-decoration:none;
   margin: 10px;
-  cursor: pointer;
+  cursor: none;
   border: none;
   height: 15px;
   font-size: 20px;
@@ -59,6 +63,7 @@ img {
 </style>
 </head>
 <body>
+
     <div class="button-container">
         <a 
           class="Beige_link"
@@ -82,6 +87,13 @@ img {
     </div>
   
     <div id="myDIV"></div>
+    <div id="cookie-law-info-bar" data-nosnippet="true">
+      <span>
+          Den här webbplatsen använder cookies för att förbättra din upplevelse. Vi antar att du är okej med det här, men du kan välja bort om du vill.
+          <button style="background-color: black;color: white;">Acceptera</button>>
+          <a href="https://manstockholm.se/sekretessvillkor/#sekretess" id="CONSTANT_OPEN_URL" class="cli-plugin-main-link">Läs mer</a>
+      </span>
+  </div>
     <img src="images/barbersjocke.png" alt="barbersjocke">
     
 
