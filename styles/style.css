@@ -92,13 +92,17 @@ a {
 
 .image__icons-container {
     position: absolute;
+    max-width: 200px;
     align-items: center;
     display: flex;
-    margin: 0;
-    right: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    /* right: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .icon-line {
