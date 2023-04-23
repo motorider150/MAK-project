@@ -28,7 +28,7 @@ a {
 
 /* Section about us */
 
-.section__image-container {
+.section__contact-us__image-container {
     background-image: url(../images/photodune-10887603-safety-razor-and-shaving-brush-on-a-stand-l.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,4 +247,34 @@ input[type=submit]:hover {
 
 input[type=radio] {
     opacity: 0;
+}
+
+/* Booking section */
+.section-booking__image-container {
+    background-image: url(../images/photodune-12110187-shaving-accessories-on-a-on-a-luxury-wooden-board-l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.booking-section-text__inner {
+    text-align: center;
+}
+
+.button-wrapper-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-booking-section-wrapper {
+    color: #fff;
+    border-color: #f90;
+    background-color: #f90;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
 }
